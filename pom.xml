@@ -38,4 +38,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>maven.pkg.github.com/MarguinHuN/AnimeList</url>
+		</repository>
+	</distributionManagement>
+
 </project>
