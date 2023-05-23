@@ -27,7 +27,7 @@ public class AnimeListRestController {
      * @param id the id of the anime to retrieve
      * @return the anime object
      */
-    @GetMapping("/{id}}")
+    @GetMapping("/{id}")
     public Anime getAnimeById(@PathVariable Long id) {
         return animeService.retrieveAnimeById(id);
     }
