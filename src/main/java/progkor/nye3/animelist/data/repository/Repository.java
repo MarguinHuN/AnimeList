@@ -45,7 +45,7 @@ public interface Repository<T, ID> {
     /**
      * Deletes an entity by its identifier
      *
-     * @param id the identifier of the entity to delety
+     * @param id the identifier of the entity to delete
      */
     void deleteById(ID id);
 }
